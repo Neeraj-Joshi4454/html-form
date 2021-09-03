@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+    color: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contactform{
+
+    border: 1px solid rgb(190, 190, 190);
+    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+label{
+
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+input{
+
+    border: 1px solid rgb(184, 35, 60);
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+input:focus{
+
+    outline: none;
+}
+
+.gender{
+
+    margin: 15px;
+}
+
+.sub{
+
+    height: 30px;
+    width: 100px;
+    color: rgb(218, 40, 70);
+}
+
+.sub:hover{
+
+    background-color: rgb(218, 40, 70);
+    color: whitesmoke;
+    transition: all ease-in-out .5s;
+}
